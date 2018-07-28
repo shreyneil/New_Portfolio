@@ -31,7 +31,7 @@ class AboutMe extends Component {
            <ReactPlayer
             width="90%"
             controls
-           url = "https://www.youtube.com/watch?v=H0_VRfPIWoI"/> 
+           url = "https://www.youtube.com/watch?v=zX0AV6yxyrQ"/> 
        
        
            <ReactPlayer

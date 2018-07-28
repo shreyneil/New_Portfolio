@@ -9,8 +9,8 @@ export const FooterContainer = styled(Flex)`
   
    position: fixed;
    transform : rotate(-90deg);
-   bottom:7.8em; 
-   left:-7em;
+   bottom:8.8em; 
+   left:-2em;
 `;
 
 export const A = styled.a`
@@ -21,12 +21,17 @@ export const A = styled.a`
     color:${blue};
   }
 `;
+export const I = styled.i`
+  
+   transform: rotate(90deg);
+   padding-right:40px;
+  }
+`;
+
 export const FootItem = styled(Div)`
   
    position:relative;
-   margin-left:40px;
-   margin-top:40px:
-   margin-bottom: 40px;
+   margin-right:30px;
    font-size:0.7em;
    cursor:pointer;
    color:black;
@@ -43,7 +48,6 @@ export const FootItem = styled(Div)`
         left:0;
         width:100%;
         height:100%;
-        background-color:${yellow};
         z-index :-1;
         transform: scale(1.3,1.5);
      }
