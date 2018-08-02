@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 // eslint-disable-next-line
 import {Flex, Div} from '../../Themes/grid';
-import {blue, yellow} from '../../Themes/variables';
+import {blue} from '../../Themes/variables';
 // eslint-disable-next-line
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 

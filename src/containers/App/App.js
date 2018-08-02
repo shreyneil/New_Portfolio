@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import {Background} from './App.styles'
 import NavigationBar from '../../components/NavigationBar/NavigationBar';	
 import Footer from '../../components/Footer/Footer';	
+import routes from '../../routes';
 //import logo from './logo.svg';
 //import './App.css';
 
@@ -12,6 +13,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <routes/>
         <Background/>
         <NavigationBar/>
         <Footer/>
