@@ -7,10 +7,10 @@ import Projects from './containers/Projects/Projects';
 export default (
    <BrowserRouter>
     <div>
-    <Route exact path="/" component = {Home} />
+    <Route exact path="/Home/" component = {Home} />
     <Route component = {App}/>
-    <Route path="/Projects" component = {Projects}/>
-    <Route path="/AboutMe" component = {AboutMe}/>
+    <Route exact path="/Home/Projects" component = {Projects}/>
+    <Route exact path="/Home/AboutMe" component = {AboutMe}/>
     </div>    
    </BrowserRouter>
 
