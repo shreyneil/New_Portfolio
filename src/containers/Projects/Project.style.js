@@ -79,6 +79,10 @@ export const Title = styled.h1`
  color: ${red};
  font-weight:bold;
  margin-top:0;
+ ${media.tablet`
+    margin-top: 1em;
+    
+ 	`}
  ${media.phone `
      
      
