@@ -17,6 +17,12 @@ export const NavigationContainer = styled(Flex)`
      right:2.6em;
      top: 1.2em;
 `}
+${media.phone `
+     
+     position:absolute;
+     right:1em;
+     top: 1.2em;
+`}
 
 `;
 

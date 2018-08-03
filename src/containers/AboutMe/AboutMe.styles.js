@@ -4,7 +4,7 @@ import {Relative} from '../../Themes/grid';
 
 export const Title = styled.h1`
  
-  margin-top:0;
+  margin-top:1em;
   color:${red};
 
 `; 

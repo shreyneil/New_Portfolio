@@ -4,7 +4,7 @@ import Zoomy from 'react-zoomy';
 // eslint-disable-next-line
 import PropTypes from 'prop-types'; 
 import CssToMatrix from'css-to-matrix';
-import {ImageButton,Index,ImageContainer,Title} from './Project.style';
+import {ImageButton,Index,ImageContainer,Title,Img} from './Project.style';
 import {Relative, Container, Flex} from '../../Themes/grid';
 import {A} from '../../Themes/types';
 import ParallaxImage from 'react-image-parallax';
@@ -28,7 +28,7 @@ class Projects extends Component {
         <Zoomy
   imageUrl={require('../../Assets/solar_system.png')}
   renderThumbnail={({ showImage }) => <ImageButton onClick={showImage}>
-<img src={require('../../Assets/solar_system_Thumbnail.png')} alt="Solar System"/>
+<Img src={require('../../Assets/solar_system_Thumbnail.png')} alt="Solar System"/>
 </ImageButton>
 }
   scale={[1.1, 1.1]}

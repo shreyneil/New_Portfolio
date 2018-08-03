@@ -49,6 +49,11 @@ export const Relative = styled(Div)`
 
  position:relative;
 
+ ${media.phone`
+    
+    padding-left:5px;
+  `} 
+
 
 `;
 

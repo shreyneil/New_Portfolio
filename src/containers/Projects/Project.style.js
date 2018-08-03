@@ -21,7 +21,16 @@ display : inline-block;
 
 
 `
+export const Img = styled.img`
 
+${media.tablet `display: block;
+  max-width:300px;
+  max-height:667px;
+  width: auto;
+  height: auto;
+`}
+
+`
 export const Index = styled.div `
 
   position : absolute;
@@ -70,4 +79,11 @@ export const Title = styled.h1`
  color: ${red};
  font-weight:bold;
  margin-top:0;
+ ${media.phone `
+     
+     
+     margin-top: 1em;
+     padding-left:7px;
+`}
+
 `;

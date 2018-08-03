@@ -21,6 +21,13 @@ ${media.tablet`
    bottom:18em;   
 
 `}
+${media.phone `
+     
+     position:fixed;
+     left:-4.2em;
+     top: 12em;
+`}
+
 
 
 `;
