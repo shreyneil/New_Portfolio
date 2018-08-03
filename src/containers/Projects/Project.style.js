@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import {red} from '../../Themes/variables';
+import media from '../../Themes/media';
 
 export const ImageButton = styled.div`
 
@@ -18,6 +19,7 @@ display : inline-block;
 	}
 }
 
+
 `
 
 export const Index = styled.div `
@@ -34,14 +36,33 @@ export const Index = styled.div `
     transform: translateY(20);
     opacity:0.3;
   }
+${media.tablet `
+     
+     left:0;
+     top:-30px;   
+`}
+
 `;
 
 export const ImageContainer = styled.div`
  
+ 
+
+ position:relative;
  width:800px;
- margin-left:auto;
- margin-right:auto;
+ margin-left:0px;
  cursor:pointer;
+${media.tablet`
+    
+    width:60%;
+    position:relative;
+    margin-left:30px;
+    margin-right:0px;
+    display:grid;
+    
+ `}
+ 
+
 `;
 
 export const Title = styled.h1`

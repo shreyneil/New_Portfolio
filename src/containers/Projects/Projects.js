@@ -24,7 +24,7 @@ class Projects extends Component {
         </Index>
         <h1><A href="https://github.com/shreyneil/Solar_System">Solar System</A> && npm install --save <A href="https://www.npmjs.com/package/react-zoomy">react-zoomy</A></h1>
         </Relative> 
-        <Flex justify = {'center'} marginBottom = "5em">
+        <Flex marginBottom = "5em">
         <Zoomy
   imageUrl={require('../../Assets/solar_system.png')}
   renderThumbnail={({ showImage }) => <ImageButton onClick={showImage}>

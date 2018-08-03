@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 // eslint-disable-next-line
 import {Flex, Div} from '../../Themes/grid';
+import media from '../../Themes/media';
 import {blue, yellow} from '../../Themes/variables';
 // eslint-disable-next-line
 import { BrowserRouter, Route, Link } from 'react-router-dom'
@@ -10,6 +11,13 @@ export const NavigationContainer = styled(Flex)`
    position: fixed;
    right: 5em;
    top:1.8em;
+   ${media.tablet `
+     
+     position:absolute;
+     right:2.6em;
+     top: 1.2em;
+`}
+
 `;
 
 export const A = styled.a`
@@ -27,6 +35,13 @@ export const NavItem = styled(Div)`
    cursor:pointer;
    position:relative;
    color:black;
+
+    ${media.tablet `
+     
+     font-size: 1em;
+     margin-right:15px;
+     
+`}
    
    &:hover{
 

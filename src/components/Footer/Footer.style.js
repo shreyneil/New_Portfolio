@@ -4,6 +4,8 @@ import {Flex, Div} from '../../Themes/grid';
 import {blue} from '../../Themes/variables';
 // eslint-disable-next-line
 import { BrowserRouter, Route, Link } from 'react-router-dom'
+import media from '../../Themes/media';
+
 
 export const FooterContainer = styled(Flex)`
   
@@ -11,6 +13,16 @@ export const FooterContainer = styled(Flex)`
    transform : rotate(-90deg);
    bottom:8.8em; 
    left:-2em;
+
+${media.tablet`
+
+   position:absolute;
+   left:-3.2em;
+   bottom:18em;   
+
+`}
+
+
 `;
 
 export const A = styled.a`
