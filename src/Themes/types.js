@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import {black,red} from './variables';
+import media from './media';
 
 export const A = styled.a`
 color : ${black};
@@ -40,5 +41,10 @@ export const H2 = styled.h2`
 export const P = styled.p`
   
    ${({align}) => align && `text-align:${align};`}
+   
+   ${media.phone`
+
+      text-align:justify;
+   	`}
 
 `;

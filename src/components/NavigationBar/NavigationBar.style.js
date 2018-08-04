@@ -23,6 +23,12 @@ ${media.phone `
      right:1em;
      top: 1.2em;
 `}
+${media.Desktop `
+     
+     position:absolute;
+     right:1em;
+     top: 1.2em;
+`}
 
 `;
 

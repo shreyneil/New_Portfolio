@@ -28,7 +28,12 @@ ${media.phone `
      top: 12em;
 `}
 
-
+${media.phone2 `
+     
+     position:fixed;
+     left:-4.2em;
+     top: 7.3em;
+`}
 
 `;
 

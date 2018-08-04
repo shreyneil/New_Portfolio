@@ -4,8 +4,9 @@
  const sizes  = {
   
     phone:376,
+    phone2:667,
     tablet:768,
-    Desktop:992,
+    Desktop:1024,
     Giant:1170
 
  };
